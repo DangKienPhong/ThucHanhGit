@@ -6,6 +6,12 @@ int tong(int a, int b){
 	cout <<"Tong cua 2 so nguyen la: "<< tong;
 }
 int hieu(int a, int b);
+int tong(int a, int b);
+int hieu(int a, int b){
+	int hieu;
+	hieu = a - b;
+	cout <<"Hieu cua 2 so nguyen la: "<< hieu;
+}
 
 int main()
 {
@@ -19,6 +25,9 @@ int main()
 	cin >> phepToan;
 	if(phepToan == "+"){
 		tong(a,b);
+	if(phepToan == "-")
+	{
+		hieu(a,b);
 	}
 	system("pause");
 	return 0;

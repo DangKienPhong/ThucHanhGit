@@ -17,7 +17,6 @@ int tich(int a, int b){
 	tich = a * b;
 	cout <<"Tich cua 2 so nguyen la: "<< tich;
 }
-
 int main()
 {
 	int a, b;

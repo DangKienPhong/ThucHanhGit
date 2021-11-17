@@ -12,7 +12,11 @@ int hieu(int a, int b){
 	hieu = a - b;
 	cout <<"Hieu cua 2 so nguyen la: "<< hieu;
 }
-
+int tich(int a, int b){
+	int tich;
+	tich = a * b;
+	cout <<"Tich cua 2 so nguyen la: "<< tich;
+}
 int main()
 {
 	int a, b;
@@ -28,6 +32,8 @@ int main()
 	if(phepToan == "-")
 	{
 		hieu(a,b);
+	} else{
+		tich(a,b);
 	}
 	system("pause");
 	return 0;

@@ -17,7 +17,13 @@ int tich(int a, int b){
 	tich = a * b;
 	cout <<"Tich cua 2 so nguyen la: "<< tich;
 }
-
+int ktChanLe(int a){
+	if(a % 2 == 0){
+		cout<<"Số "<<a<<" là số chẵn";
+	} else {
+		cout<<"Số "<<a<<" là số lẻ";
+	}
+}
 int main()
 {
 	int a, b;
@@ -28,6 +34,7 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	ktChanLe(a);
 	if(phepToan == "+"){
 		tong(a,b);
 	if(phepToan == "-")
